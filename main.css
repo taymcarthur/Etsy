@@ -12,14 +12,27 @@ a {
 }
 
 h1 {
-	color:pink;
+	color:rgb(246, 114, 22);
 	padding-right:25px;
+	font-family:serif;
 
 }
 
 .header {
 	display:flex;
 	margin-left:40px;
+	height:100px;
+}
+
+.signIn {
+	width:60px;
+	height:30px;
+	border:1px solid #0192b5;
+	background:white;
+	color:#0192b5;
+	border-radius:3px;
+	margin-right:20px;
+	outline:none;
 }
 
 .header2 {
@@ -48,6 +61,7 @@ h1 {
 	line-height:40px;
 	font-size:16px;
 	padding-left:10px;
+	outline:none;
 
 }
 
@@ -58,16 +72,28 @@ h1 {
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 	border:1px solid black;
-	background:blue;
+	background:#3cb1Cb;
+	color:white;
+	font-size:16px;
+	outline:none;
 }
 
 .navBar {
-	margin-left:-60px;
-	border-top:1px solid black;
-	border-bottom:1px solid black;
-}
-.navBar ul {
-	display:flex;
-	justify-content:space-around;
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
 
+}
+.navBar a {
+	color: grey;
+}
+
+.navBar li {
+	text-align: center;
+	margin-right: 20px;
+}
+
+.navBar a:hover {
+	padding-bottom:14px;
+	border-bottom:3px solid #F56400;
+	color:black;
 }

@@ -10,11 +10,11 @@
 	<div class="header"> 
 		<h1>Etsy</h1>
 		<input type="text" name="search" placeholder="Search for Items or Shops" class="searchBar" />
-		<input type="button" name="button" class="submitButton">
+		<input type="button" name="button" class="submitButton" value="Search">
 		<ul class="header2">
 			<li><a href="#">Sell on Etsy</a></li>
 			<li><a href="#">Register</a></li>
-			<li><a href="#">Sign in</a></li>
+			<li><input type="button" class="signIn" value="Sign in"></li>
 			<li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><br />Cart</a></li>
 		</ul>
 	</div>
@@ -30,6 +30,39 @@
 			<li><a href="#">Kids & Baby</a></li>
 			<li><a href="#">Vintage</a></li>
 		</ul>
+	</div>
+
+	<div class="sideThing">
+		<h4>Show results for:</h4>
+		<div class="categoryBox">
+		<span>All categories</span>
+		<ul>
+			<li>Home & Living</li>
+			<li>Art & Collectibles</li>
+			<li>Weddings</li>
+			<li>Clothing</li>
+			<li>Paper & Party Supplies</li>
+			<li>Jewelry</li>
+			<li>Accessories</li>
+			<li>Craft Supplies & Tools</li>
+			<li>Bags & Purses</li>
+			<li>Bath & Beauty</li>
+			<li>Books, Movies & Music</li>
+			<li>Shoes</li>
+			<li>Electronics & Accessories</li>
+			<li>Toys & Games</li>
+			<li>Pet Supplies</li>
+		</ul>
+	<div class="categoryBox">
+		<h4>Refine your search:</h4>
+		<span>Shop location</span><br />
+		<input type="radio" name="anywhere" value="anywhere" checked="checked">Anywhere<br />
+		<input type="radio" name="anywhere" value="USA">USA<br />
+		<span>Choose a custom location</span>
+
+		</div>
+
+		</div>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"

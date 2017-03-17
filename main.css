@@ -49,6 +49,7 @@ h1 {
 .navBar ul {
 	display:flex;
 	justify-content:flex-start;
+
 }
 
 .searchBar {
@@ -96,4 +97,17 @@ h1 {
 	padding-bottom:14px;
 	border-bottom:3px solid #F56400;
 	color:black;
+}
+
+.sideThing {
+	border:1px solid grey;
+	background:white;
+	width:230px;
+	margin-left:15px;
+	padding-left:5px;
+	margin-top:15px;
+}
+
+#customBox {
+	margin-left:150px;
 }

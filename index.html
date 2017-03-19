@@ -34,36 +34,49 @@
 
 	<div class="sideThing">
 		<h4>Show results for:</h4>
-		<div class="categoryBox">
 		<span>All categories</span>
 		<ul>
-			<li>Home & Living</li>
-			<li>Art & Collectibles</li>
-			<li>Weddings</li>
-			<li>Clothing</li>
-			<li>Paper & Party Supplies</li>
-			<li>Jewelry</li>
-			<li>Accessories</li>
-			<li>Craft Supplies & Tools</li>
-			<li>Bags & Purses</li>
-			<li>Bath & Beauty</li>
-			<li>Books, Movies & Music</li>
-			<li>Shoes</li>
-			<li>Electronics & Accessories</li>
-			<li>Toys & Games</li>
-			<li>Pet Supplies</li>
+			<li><a href="#">Home & Living</a></li>
+			<li><a href="#">Art & Collectibles</a></li>
+			<li><a href="#">Weddings</a></li>
+			<li><a href="#">Clothing</a></li>
+			<li><a href="#">Paper & Party Supplies</a></li>
+			<li><a href="#">Jewelry</a></li>
+			<li><a href="#">Accessories</a></li>
+			<li><a href="#">Craft Supplies & Tools</a></li>
+			<li><a href="#">Bags & Purses</a></li>
+			<li><a href="#">Bath & Beauty</a></li>
+			<li><a href="#">Books, Movies & Music</a></li>
+			<li><a href="#">Shoes</a></li>
+			<li><a href="#">Electronics & Accessories</a></li>
+			<li><a href="#">Toys & Games</a></li>
+			<li><a href="#">Pet Supplies</a></li>
 		</ul>
-	<div class="categoryBox">
-		<h4>Refine your search:</h4>
-		<span>Shop location</span><br />
+		<hr>
+		<span><strong>Shop location</strong></span><br />
 		<input type="radio" name="anywhere" value="anywhere" checked="checked">Anywhere<br />
 		<input type="radio" name="anywhere" value="USA">USA<br />
-		<input type="radio" name="anywhere" value="custom">Choose a custom location</span><input type="textarea" textarea id=”customBox” placeholder="Type Your Location"></textbox>
-
-		</div>
-
-		</div>
+		<input type="radio" name="anywhere" value="custom">Choose a custom location<input type="textarea" textarea id=”customBox” placeholder="Type Your Location">
+		<hr>
+		<strong>Item Type</strong>
+		<br>
+		<input type="radio" name="itemType" value="itemType" checked="checked">All items<br />
+		<input type="radio" name="itemType" value="itemType" checked="checked">Handmade<br />
+		<input type="radio" name="itemType" value="itemType" checked="checked">Vintage<br />
+		<hr>
+		<span><strong>Price ($)</strong></span>
+		<input type="radio" name="price" value="price" checked="checked">Any price<br />
+		<input type="radio" name="price" value="price" checked="checked">Any price<br />
+		<input type="radio" name="price" value="price" checked="checked">Under $25<br />
+		<input type="radio" name="price" value="price" checked="checked">$25 - $30<br />
+		<input type="radio" name="price" value="price" checked="checked">$50 - $100<br />
+		<input type="radio" name="price" value="price" checked="checked">Over $100<br />
+		<input type="radio" name="price" value="price" checked="checked">Custom<br />
+		<input type="text" name="low" value="Low"><br>
+		<input type="text" name="high" value="High"><br>
+		<i id="right" class="fa fa-caret-right" aria-hidden="true"></i>
 	</div>
+
 
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
 	  integrity="  sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="

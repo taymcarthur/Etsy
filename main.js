@@ -7,7 +7,7 @@ $(document).ready(function(){
 		if (ansYes === true) {
 			alert("Too Bad So Sad")
 		} else {
-			alert("Good")
+			alert("Bye Felicia")
 		}
 	}) 
 	

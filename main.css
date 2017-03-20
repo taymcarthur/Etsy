@@ -1,6 +1,7 @@
 body {
 	font-family:sans-serif;
 	background: #FAF9F5;
+	font-size:15px;
 }
 
 li {
@@ -38,8 +39,9 @@ h1 {
 
 .header2 {
 	display:flex;
-	position:relative;
-	left:370px;
+	margin-left:500px;
+	/*position:relative;
+	margin-left:370px;*/
 	padding-top:10px;
 }
 
@@ -52,6 +54,11 @@ h1 {
 	justify-content:flex-start;
 
 }
+
+#signIn {
+	margin-top:-10px;
+}
+
 
 .searchBar {
 	width:350px;
@@ -119,9 +126,10 @@ h1 {
 	background:white;
 	width:65%;
 	margin-left:15px;
-	padding-left:5px;
+	padding-left:10px;
 	margin-top:15px;
 	color:#353535;
+	line-height:20px;
 }
 
 #locBox { 
@@ -223,5 +231,19 @@ textarea {
 .imgData p {
 	size:12px;
 	line-height:1px;
+
+}
+
+.imgDiv {
+	margin-left:-100px;
+	width:100%;
+
+}
+
+.imgs1 ul {
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+
 
 }

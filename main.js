@@ -30,7 +30,8 @@ $(document).ready(function(){
 		} else {
 			alert("Bye Felicia")
 		}
-	}) 
+	}) //this is for the triangle button @ Price ($)
+
 
 	//img, description, shop name, price (just map it)
 	

@@ -31,67 +31,94 @@
 			<li><a href="#">Vintage</a></li>
 		</ul>
 	</div>
+	<div class="contentContainer">
+		<div class="sideContainer">
+			<div class="sideThing">
+				<h4>Show results for:</h4>
+				<span>All categories</span>
+				<ul>
+					<li><a href="#">Home & Living</a></li>
+					<li><a href="#">Art & Collectibles</a></li>
+					<li><a href="#">Weddings</a></li>
+					<li><a href="#">Clothing</a></li>
+					<li><a href="#">Paper & Party Supplies</a></li>
+					<li><a href="#">Jewelry</a></li>
+					<li><a href="#">Accessories</a></li>
+					<li><a href="#">Craft Supplies & Tools</a></li>
+					<li><a href="#">Bags & Purses</a></li>
+					<li><a href="#">Bath & Beauty</a></li>
+					<li><a href="#">Books, Movies & Music</a></li>
+					<li><a href="#">Shoes</a></li>
+					<li><a href="#">Electronics & Accessories</a></li>
+					<li><a href="#">Toys & Games</a></li>
+					<li><a href="#">Pet Supplies</a></li>
+				</ul>
+				<hr>
+				<span><strong>Shop location</strong></span><br />
+				<input type="radio" name="anywhere" value="anywhere" checked="checked">Anywhere<br />
+				<input type="radio" name="anywhere" value="USA">USA<br />
+				<input type="radio" name="anywhere" value="custom">Choose a custom location<br>
+				<input id="locBox” type="textarea" placeholder="Type Your Location">
+				<hr>
+				<strong>Item Type</strong>
+				<br>
+				<input type="radio" name="itemType" value="itemType" checked="checked">All items<br />
+				<input type="radio" name="itemType" value="itemType" checked="checked">Handmade<br />
+				<input type="radio" name="itemType" value="itemType" checked="checked">Vintage<br />
+				<hr>
+				<span><strong>Price ($)</strong></span>
+				<br>
+				<input type="radio" name="price" value="price" checked="checked">Any price<br />
+				<input type="radio" name="price" value="price" checked="checked">Any price<br />
+				<input type="radio" name="price" value="price" checked="checked">Under $25<br />
+				<input type="radio" name="price" value="price" checked="checked">$25 - $30<br />
+				<input type="radio" name="price" value="price" checked="checked">$50 - $100<br />
+				<input type="radio" name="price" value="price" checked="checked">Over $100<br />
+				<input type="radio" name="price" value="price" checked="checked">Custom<br />
+				<div class = "priceBoxes">
+					<input class="priceBox1" type="text" name="low" value="Low"> or 
+					<input class="priceBox2" type="text" name="high" value="High">
+					<i id="right" class="fa fa-caret-right" aria-hidden="true"></i>
+				</div>
+				<hr>
+				<span><strong>Filter by color</strong></span>
+				<div class="colorBox">
+					<br>
+					<input id="btnPink" type="button" name="button" class="colorButton" value=""><input id="btnBlue" type="button" name="button" class="colorButton" value=""><input id="btnYellow" type="button" name="button" class="colorButton" value=""><input id="btnOrange" type="button" name="button" class="colorButton" value=""><input id="btnPurple" type="button" name="button" class="colorButton" value=""><input id="btnBlack" type="button" name="button" class="colorButton" value=""><input id="btnWhite" type="button" name="button" class="colorButton" value="">
+				</div>
 
-	<div class="sideThing">
-		<h4>Show results for:</h4>
-		<span>All categories</span>
-		<ul>
-			<li><a href="#">Home & Living</a></li>
-			<li><a href="#">Art & Collectibles</a></li>
-			<li><a href="#">Weddings</a></li>
-			<li><a href="#">Clothing</a></li>
-			<li><a href="#">Paper & Party Supplies</a></li>
-			<li><a href="#">Jewelry</a></li>
-			<li><a href="#">Accessories</a></li>
-			<li><a href="#">Craft Supplies & Tools</a></li>
-			<li><a href="#">Bags & Purses</a></li>
-			<li><a href="#">Bath & Beauty</a></li>
-			<li><a href="#">Books, Movies & Music</a></li>
-			<li><a href="#">Shoes</a></li>
-			<li><a href="#">Electronics & Accessories</a></li>
-			<li><a href="#">Toys & Games</a></li>
-			<li><a href="#">Pet Supplies</a></li>
-		</ul>
-		<hr>
-		<span><strong>Shop location</strong></span><br />
-		<input type="radio" name="anywhere" value="anywhere" checked="checked">Anywhere<br />
-		<input type="radio" name="anywhere" value="USA">USA<br />
-		<input type="radio" name="anywhere" value="custom">Choose a custom location<input type="textarea" textarea id=”customBox” placeholder="Type Your Location">
-		<hr>
-		<strong>Item Type</strong>
-		<br>
-		<input type="radio" name="itemType" value="itemType" checked="checked">All items<br />
-		<input type="radio" name="itemType" value="itemType" checked="checked">Handmade<br />
-		<input type="radio" name="itemType" value="itemType" checked="checked">Vintage<br />
-		<hr>
-		<span><strong>Price ($)</strong></span>
-		<input type="radio" name="price" value="price" checked="checked">Any price<br />
-		<input type="radio" name="price" value="price" checked="checked">Any price<br />
-		<input type="radio" name="price" value="price" checked="checked">Under $25<br />
-		<input type="radio" name="price" value="price" checked="checked">$25 - $30<br />
-		<input type="radio" name="price" value="price" checked="checked">$50 - $100<br />
-		<input type="radio" name="price" value="price" checked="checked">Over $100<br />
-		<input type="radio" name="price" value="price" checked="checked">Custom<br />
-		<div class = "priceBoxes">
-		<input class="priceBox1" type="text" name="low" value="Low"> or 
-		<input class="priceBox2" type="text" name="high" value="High">
-		<i id="right" class="fa fa-caret-right" aria-hidden="true"></i>
+				<hr>
+				<span><strong>ordering options</strong></span>
+				<br>
+				<input type="button" name="button" class="options" value="" checked="checked"> Accepts Etsy gift cards 
+				<br>
+				<input type="button" name="button" class="options" value="" checked="checked"> Customizable
+			</div>
 		</div>
-		<hr>
-		<span><strong>Filter by color</strong></span>
-		<div class="colorBox">
-		<br>
-		<input id="btnPink" type="button" name="button" class="colorButton" value=""><input id="btnBlue" type="button" name="button" class="colorButton" value=""><input id="btnYellow" type="button" name="button" class="colorButton" value=""><input id="btnOrange" type="button" name="button" class="colorButton" value=""><input id="btnPurple" type="button" name="button" class="colorButton" value=""><input id="btnBlack" type="button" name="button" class="colorButton" value=""><input id="btnWhite" type="button" name="button" class="colorButton" value="">
+		<div class="imgDiv">
+			<div class="imgs1">
+				<ul>
+					<li><img src="https://img1.etsystatic.com/117/0/8140833/il_340x270.919374113_dnfl.jpg"><p>Home & Living<br><a href="#">19,527 Items</a></p></li>
+					<li></li>
+					<li></li>
+				</ul>
 
+			</div>
+			<div class="imgs2">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
 
+			<div id="apiShit">
 
+			</div>
+
+		</div>
 	</div>
-
-	<div>
-		
-	</div>
-
-
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
 	  integrity="  sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	  crossorigin="anonymous"></script>

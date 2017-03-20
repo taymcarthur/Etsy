@@ -100,19 +100,33 @@ h1 {
 	color:black;
 }
 
+.contentContainer {
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.sideContainer {
+	width:30%;
+}
+
+.imgDiv {
+	width:70%;
+}
+
 .sideThing {
 	border:1px solid grey;
 	background:white;
-	width:230px;
+	width:65%;
 	margin-left:15px;
 	padding-left:5px;
 	margin-top:15px;
 	color:#353535;
 }
 
-#customBox {
-	margin-left:150px;
-}
+#locBox { 
+
+} /*why tf isn't this working */ 
 
 .priceBoxes {
 	margin-top:15px;
@@ -189,4 +203,25 @@ textarea {
 	background:white;
 	border-width:1px black;
 	width:20px;
+}
+
+#apiShit {
+	width: 97%;
+}
+
+.imgData {
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+
+.imgData img {
+	width: 230px;
+	height: 140px;
+}
+
+.imgData p {
+	size:12px;
+	line-height:1px;
+
 }
